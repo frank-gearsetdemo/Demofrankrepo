@@ -2,7 +2,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>frank-tdx18-dev@gearset.com</assignedTo>
+            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -11,7 +11,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>frank-tdx18-dev@gearset.com</assignedTo>
+            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
