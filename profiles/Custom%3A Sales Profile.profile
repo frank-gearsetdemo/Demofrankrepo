@@ -918,6 +918,10 @@
         <editable>true</editable>
         <field>Account.accountbisk__c</field>
         <readable>true</readable>
+    </fieldPermissions><fieldPermissions>
+        <editable>true</editable>
+        <field>Account.demoaccount__c</field>
+        <readable>true</readable>
     </fieldPermissions><layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments><layoutAssignments>
