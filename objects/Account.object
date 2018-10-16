@@ -339,6 +339,28 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>demo_frank__c</fullName>
+        <externalId>false</externalId>
+        <label>demo-frank</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>frank_frank__c</fullName>
+        <externalId>false</externalId>
+        <label>frank-frank</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
   <enableFeeds>true</enableFeeds>
   <enableHistory>false</enableHistory>
