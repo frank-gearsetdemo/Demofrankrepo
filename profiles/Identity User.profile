@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Identity</userLicense>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Identity</userLicense>
     <applicationVisibilities xmlns="http://soap.sforce.com/2006/04/metadata">
         <application>standard__AppLauncher</application>
         <default>true</default>
@@ -61,6 +61,21 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Insights</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -234,16 +249,8 @@
         <field>Account.YearStarted</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.demo_account_1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.demo_account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.AccountId</field>
@@ -1169,7 +1176,6 @@
         <field>Account.accountbisk__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1277,6 +1283,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
@@ -1408,6 +1417,10 @@
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-EmailTemplate</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>

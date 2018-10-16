@@ -296,28 +296,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>demo_account_1__c</fullName>
-        <externalId>false</externalId>
-        <label>demo-account-1</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>demo_account__c</fullName>
-        <externalId>false</externalId>
-        <label>demo-account</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>SLA__c</fullName>
         <externalId>false</externalId>
         <label>SLA</label>

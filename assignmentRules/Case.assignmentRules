@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata"><assignmentRule>
+<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
+            <assignedTo>franks-df18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -21,7 +22,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
+            <assignedTo>franks-df18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -40,7 +41,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
+            <assignedTo>franks-df18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -59,7 +60,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
+            <assignedTo>franks-df18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -78,7 +79,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>frank-tdx18-staging@gearset.com</assignedTo>
+            <assignedTo>franks-df18-staging@gearset.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
@@ -86,4 +87,5 @@
                 <value>Partner</value>
             </criteriaItems>
         </ruleEntry>
-    </assignmentRule></AssignmentRules>
+    </assignmentRule>
+</AssignmentRules>
