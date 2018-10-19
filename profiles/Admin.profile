@@ -273,8 +273,6 @@
         <field>Account.YearStarted</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.AccountId</field>
