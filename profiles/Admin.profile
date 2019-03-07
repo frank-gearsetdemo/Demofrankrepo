@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>Salesforce</userLicense>
     <classAccesses xmlns="http://soap.sforce.com/2006/04/metadata">
         <apexClass>ChangePasswordController</apexClass>
         <enabled>true</enabled>
@@ -23,6 +23,10 @@
     <enabled>false</enabled>
     <apexClass>PassingTests</apexClass>
 </classAccesses>
+    <classAccesses>
+        <apexClass>ContactsTodayController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1193,7 +1197,6 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
