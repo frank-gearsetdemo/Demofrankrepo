@@ -11,18 +11,9 @@
         <apexClass>CommunitiesLandingControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>ChangePasswordControllerTest</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>FailingTests</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>PassingTests</apexClass>
-</classAccesses>
+    
+    
+    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
