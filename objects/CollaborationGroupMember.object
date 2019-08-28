@@ -1,4 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
         <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><enableFeeds>false</enableFeeds></CustomObject>
+    </actionOverrides><enableFeeds>false</enableFeeds>
+</CustomObject>

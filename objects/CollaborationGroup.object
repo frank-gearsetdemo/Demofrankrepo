@@ -1,31 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
         <actionName>AddMembersAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>DeleteBannerPhotoAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>DeletePhotoAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>JoinGroup</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>UpdateBannerPhotoAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>UpdatePhotoAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><actionOverrides>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>ViewPhotoAction</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><listViews>
+    </actionOverrides><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds>
+    <listViews>
         <fullName>All_ChatterGroups</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -34,4 +53,5 @@
             <value>0</value>
         </filters>
         <label>Active Groups</label>
-    </listViews></CustomObject>
+    </listViews>
+</CustomObject>

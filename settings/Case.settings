@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>franks-df18-staging@gearset.com</defaultCaseOwner>
+    <defaultCaseOwner>franks-df18-dev@gearset.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>franks-df18-staging@gearset.com</defaultCaseUser>
+    <defaultCaseUser>franks-df18-dev@gearset.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
