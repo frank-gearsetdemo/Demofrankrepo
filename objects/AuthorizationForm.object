@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Description</fullName>
+        <fullName>DefaultAuthFormTextId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>EffectiveFromDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsAlohaSupported</fullName>
+        <fullName>EffectiveToDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsLightningSupported</fullName>
+        <fullName>IsSignatureRequired</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
+        <fullName>RevisionNumber</fullName>
         <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>StartingContext</fullName>
     </fields>
     <actionOverrides>
         <actionName>CancelEdit</actionName>
@@ -116,20 +119,6 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Share</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Share</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Share</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -164,18 +153,21 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
-        <customTabListAdditionalFields>StartingContext</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RevisionNumber</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveFromDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EffectiveToDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>StartingContext</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>StartingContext</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>StartingContext</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RevisionNumber</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveFromDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EffectiveToDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <listViews>
+        <fullName>All_AuthorizationForms</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Authorization Forms</label>
+    </listViews>
 </CustomObject>

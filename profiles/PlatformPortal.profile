@@ -1542,6 +1542,14 @@
         <tab>standard-Recommendation</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationForm</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormConsent</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
