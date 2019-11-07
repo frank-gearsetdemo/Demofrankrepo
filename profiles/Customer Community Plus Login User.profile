@@ -1604,9 +1604,9 @@
         <name>AssignTopics</name>
     </userPermissions>
     <userPermissions>
-    <enabled>false</enabled>
-    <name>ApiEnabled</name>
-</userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AllowUniversalSearch</name>
