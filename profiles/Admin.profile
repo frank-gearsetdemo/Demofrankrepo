@@ -2252,7 +2252,7 @@
         <name>ManagePropositions</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>TraceXdsQueries</name>
-    </userPermissions>
+    <enabled>false</enabled>
+    <name>TraceXdsQueries</name>
+</userPermissions>
 </Profile>
