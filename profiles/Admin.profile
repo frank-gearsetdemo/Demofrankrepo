@@ -93,6 +93,11 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.SalesDemoField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.LeadSource</field>
         <readable>true</readable>
     </fieldPermissions>
